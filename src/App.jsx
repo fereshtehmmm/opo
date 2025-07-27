@@ -5,6 +5,9 @@ import Layout from "./components/ui/Layout";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/ProductsPage";
 import ProductPage from "./pages/ProductPage";
+import ServicesPage from "./pages/ServicesPage";
+import SocialServicesPage from "./pages/SocialServicesPage";
+import AboutPage from "./pages/AboutPage";
 import CartPage from "./pages/CartPage";
 import Register from "./pages/Register";
 import LoginPopup from "./components/ui/LoginPopup";
@@ -19,6 +22,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/social" element={<SocialServicesPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<LoginPopup />} />
