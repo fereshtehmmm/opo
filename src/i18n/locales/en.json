@@ -1,0 +1,167 @@
+{
+"header": {
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "profile": "Profile",
+  "search_placeholder": "Search for product or service...",
+  "view_all_products": "View All Products",
+  "products":"Products",
+  "services": "Services",
+  "social":"Social Services",
+  "about": "About Us",
+  "sample_kit": "Sample Kit",
+  "home": "Home",
+  "get_started": "Get Started",
+  "business_card_title": "Business Card Design Services",
+  "business_card_desc": "Looking to re-vamp your business card design? Our in-house team can help. Packages starting at $39.00."
+},
+  "product": {
+    "size": "Size",
+    "material": "Material",
+    "quantity": "Quantity",
+    "sides": "Sides",
+    "single": "Single",
+    "double": "Double",
+    "corners": "Corners",
+    "square": "Square",
+    "rounded": "Rounded",
+    "upload": "Upload File",
+    "add_to_cart": "Add to Cart",
+    "added": "added to cart!",
+    "price": "Price",
+    "select": "Select..."
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "You have no items in your cart yet.",
+    "remove": "Remove",
+    "clear": "Clear Cart",
+    "submit": "Submit Order",
+    "total": "Total",
+    "size": "Size",
+    "material": "Material",
+    "qty": "Qty",
+    "error": "Something went wrong. Please try again."
+  },
+  "confirmation": {
+    "success": "Order Submitted!",
+    "message": "Thank you for your order. We’ll start processing it shortly.",
+    "back_home": "Back to Home"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "signin": "Sign in",
+    "no_account": "Don’t have an account?",
+    "register": "Register"
+  },
+  "register": {
+    "title": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "signup": "Sign Up",
+    "have_account": "Already have an account?",
+    "signin": "Login",
+    "error": "Please fill in all fields."
+  },
+  "profile": {
+  "welcome": "Welcome, {{name}}!",
+  "email": "Email",
+  "phone": "Phone",
+  "not_set": "Not provided"
+},
+  "categories": {
+    "business_cards": "Business Cards",
+    "banners": "Banners and Posters",
+    "brochures": "Brochures and Catalogs",
+    "invoices": "Invoices & Receipts Book",
+    "envelopes": "Envelopes",
+    "stickers": "Labels & Stickers",
+    "flyers": "Flyers & Leaflets",
+    "postcards": "Postcards",
+    "clothing": "Printed Clothing",
+    "items": "Print on Items",
+    "packaging": "Packaging Printing",
+    "calendars": "Calendars & Diaries",
+    "membership_cards": "Membership Cards",
+    "interior": "Interior Decoration",
+    "gifts": "Promotional Gifts",
+    "gift_cards": "Gift Cards & Store Cards",
+    "invitation_cards": "Invitation Cards",
+    "magazine_ads": "Newspaper & Magazine Ads",
+    "promo_flyers": "Advertising Flyers & Handouts",
+    "specialty_paper": "Specialty Paper Printing"
+  },
+  "footer": {
+    "services": "Services",
+    "about": "About",
+    "support": "Support",
+    "follow": "Follow Us"
+  },
+  "product_page": {
+    "description": "You can customize this product, choose options and upload your design for printing."
+  },
+  "form": {
+    "size": "Select Size",
+    "material": "Select Material",
+    "quantity": "Select Quantity",
+    "sides": "Printing Sides",
+    "single": "Single-sided",
+    "double": "Double-sided",
+    "corners": "Corner Style",
+    "square": "Square Corners",
+    "rounded": "Rounded Corners",
+    "upload": "Upload Your File",
+    "custom": "Custom Size",
+    "add_to_cart": "Add to Cart"
+  },
+
+  "hero": {
+    "title": "Professional Online Printing Services",
+    "subtitle": "From business cards to packaging, design and print everything online — fast, easy, affordable.",
+    "order": "Place Order",
+    "contact": "Contact Us"
+  },
+  "features": {
+    "title": "Why Choose Rasmly",
+    "fastDelivery": "Fast Delivery",
+    "fastDeliveryDesc": "Get your order in record time",
+    "highQuality": "Premium Quality",
+    "highQualityDesc": "We use only the best materials",
+    "affordable": "Affordable Prices",
+    "affordableDesc": "Balance between quality and cost",
+    "support": "Professional Support",
+    "supportDesc": "Quick and helpful assistance"
+  },
+
+  "order": {
+    "title": "How to Order"
+  },
+  "step1": {
+    "title": "Choose Product",
+    "desc": "Select what you need from our categories."
+  },
+  "step2": {
+    "title": "Customize Options",
+    "desc": "Pick size, material, and quantity."
+  },
+  "step3": {
+    "title": "Upload Design",
+    "desc": "Send your ready-to-print file."
+  },
+  "step4": {
+    "title": "Checkout",
+    "desc": "Pay and complete your order."
+  },
+  "offers": {
+    "title": "Special Offers",
+    "order": "Order Now"
+  },
+  "portfolio": {
+    "title": "Our Recent Work",
+    "description": "Showcase of our latest printing and design projects across Oman."
+  }
+}
