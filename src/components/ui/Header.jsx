@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import LoginPopup from "./LoginPopup";
 import { useUser } from "../../context/UserContext";
 import MegaMenu from "./MegaMenu";
+import DarkModeToggle from "./DarkModeToggle";
 
 const Header = () => {
   const { user, isLoggedIn, login, logout } = useUser();
@@ -122,7 +123,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* بالا: لوگو + سرچ + ورود */}
       <div
-        className={`flex items-center justify-between h-20 px-4 sm:px-6 backdrop-blur-md bg-white/30 shadow-md ${
+        className={`flex items-center justify-between h-20 px-4 sm:px-6 backdrop-blur-md bg-white/30 dark:bg-gray-800/50 shadow-md ${
           isRTL ? "flex-row-reverse" : ""
         }`}
       >
@@ -172,6 +173,7 @@ const Header = () => {
           <button onClick={toggleLang} className="text-white border px-2 rounded">
             {i18n.language === "ar" ? "EN" : "AR"}
           </button>
+          <DarkModeToggle />
           <Link to="/cart" className="text-white">
             🛒
           </Link>
@@ -180,7 +182,7 @@ const Header = () => {
 
       {/* منوی موبایل */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white text-black shadow-md px-4 py-6 space-y-4">
+        <div className="lg:hidden bg-white dark:bg-gray-800 text-black dark:text-white shadow-md px-4 py-6 space-y-4">
           <Link to="/" onClick={() => setMobileMenuOpen(false)}>
             {t("header.home")}
           </Link>
@@ -200,7 +202,7 @@ const Header = () => {
       )}
 
       {/* نوار ناوبری دسکتاپ */}
-      <nav className="hidden lg:block bg-white/10 backdrop-blur-md border-t border-white/20">
+      <nav className="hidden lg:block bg-white/10 dark:bg-gray-800/20 backdrop-blur-md border-t border-white/20">
         <div className="flex justify-center gap-10 py-3 text-white">
           <Link to="/" className="hover:text-blue-300">
             {t("header.home")}

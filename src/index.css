@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  @apply bg-white dark:bg-gray-900 text-black dark:text-gray-100;
   font-family: 'Inter', sans-serif;
 }
 
